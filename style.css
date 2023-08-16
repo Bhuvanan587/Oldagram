@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+
+.container {
+    width: 375px;
+    margin: auto;
+    background: #EDEDED;
+}
+
+header {
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 375px;
+    height: 67px;
+    padding: 16px 16px 17px 15px;
+    border-bottom: 1px solid #c6c6c6;
+    box-sizing: border-box;
+}
+
+.user-logo,
+.my-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 127px;
+    height: 33.02px;
+}
+
+.user-logo {
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    width: 375px;
+}
+
+.user-details {
+    display: inline-block;
+}
+
+.user-name,
+.user-location,
+.like-count,
+.user-caption {
+    width: 307px;
+    height: 15px;
+    color: #000;
+    font-family: 'Source Sans 3', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+}
+
+.user-name,
+.like-count {
+    font-size: 13px;
+}
+
+.user-location {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.user-post-img {
+    width: 375px;
+    height: 375px;
+    margin-bottom: 21px;
+}
+
+.icons-tab {
+    display: flex;
+    justify-content: space-between;
+    width: 104.337px;
+    height: 22.135px;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+}
+
+.user-caption,
+.like-count {
+    width: 343px;
+    height: 16px;
+}
+
+.like-count,
+.icons-tab {
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+
+.user-caption{
+    padding-left: 10px;
+    padding-bottom: 16px;
+}
+
+.post-text {
+    font-weight: 400;
+}
+
+.post{
+    background: #FFF;
+    margin-bottom: 25px;
+}
